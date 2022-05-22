@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitcherApp.Model", "Witcher
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitcherApp.Logic", "WitcherApp.Logic\WitcherApp.Logic.csproj", "{DD0C77AC-E466-482F-850F-B9C1D1556E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIE2VA_HFT_2021221.WPFClient", "DIE2VA_HFT_2021221.WPFClient\DIE2VA_HFT_2021221.WPFClient.csproj", "{7149A049-F1D3-4D7F-911C-42E2E02D0570}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DD0C77AC-E466-482F-850F-B9C1D1556E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0C77AC-E466-482F-850F-B9C1D1556E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0C77AC-E466-482F-850F-B9C1D1556E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
