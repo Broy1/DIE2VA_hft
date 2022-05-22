@@ -24,6 +24,11 @@ namespace WitcherApp.Model
 
         public virtual Monster KilledBy { get; set; }
 
+
+        public Human()
+        {
+
+        }
         public Human(string datastring)
         {
             string[] raw = datastring.Split('-');

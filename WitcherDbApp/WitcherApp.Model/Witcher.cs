@@ -30,6 +30,11 @@ namespace WitcherApp.Model
 
         public virtual School School { get; set; }
 
+
+        public Witcher()
+        {
+
+        }
         public Witcher(string datastring)
         {
             string[] raw = datastring.Split('-');
