@@ -8,14 +8,14 @@ using WitcherApp.Model;
 
 namespace WitcherApp.Repository.Database
 {
-    public class MovieDbContext : DbContext
+    public class WitcherDbContext : DbContext
     {
         public DbSet<Witcher> Witchers { get; set; }
         public DbSet<Human> Humans { get; set; }
         public DbSet<Monster> Monsters { get; set; }
         public DbSet<School> Schools { get; set; }
 
-        public MovieDbContext()
+        public WitcherDbContext()
         {
             this.Database.EnsureCreated();
         }
