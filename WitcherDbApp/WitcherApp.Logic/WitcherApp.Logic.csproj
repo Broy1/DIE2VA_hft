@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WitcherApp.Model\WitcherApp.Model.csproj" />
+    <ProjectReference Include="..\WitcherApp.Repository\WitcherApp.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
