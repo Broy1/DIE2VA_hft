@@ -18,11 +18,19 @@ namespace WitcherApp.Model
 
         public int WitcherId { get; set; }
 
-        public int MonsterId { get; set; }
+        public int? MonsterId { get; set; }
 
         public virtual Witcher WitcherFriend { get; set; }
 
         public virtual Monster KilledBy { get; set; }
 
+        public Human(string datastring)
+        {
+            string[] raw = datastring.Split('-');
+            HumanId = int.Parse(raw[0]);
+            WitcherId = int.Parse(raw[1]);
+            MonsterId = int.Parse(raw[2]);
+            Name = raw[3];
+        }
     }
 }

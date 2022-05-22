@@ -24,5 +24,13 @@ namespace WitcherApp.Model
         {
             Witchers = new HashSet<Witcher>();
         }
+
+        public School(string datastring)
+        {
+            string[] raw = datastring.Split('-');
+            SchoolId = int.Parse(raw[0]);
+            Name = raw[1];
+            Witchers = new HashSet<Witcher>();
+        }
     }
 }

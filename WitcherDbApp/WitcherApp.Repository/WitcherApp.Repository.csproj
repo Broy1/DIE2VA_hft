@@ -14,4 +14,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WitcherApp.Model\WitcherApp.Model.csproj" />
+  </ItemGroup>
+
 </Project>

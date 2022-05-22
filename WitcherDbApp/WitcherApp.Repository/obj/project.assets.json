@@ -1610,6 +1610,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "WitcherApp.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WitcherApp.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WitcherApp.Model.dll": {}
+        }
       }
     }
   },
@@ -5737,6 +5747,11 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "WitcherApp.Model/1.0.0": {
+      "type": "project",
+      "path": "../WitcherApp.Model/WitcherApp.Model.csproj",
+      "msbuildProject": "../WitcherApp.Model/WitcherApp.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5744,7 +5759,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.14",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.14",
       "Microsoft.EntityFrameworkCore.Proxies >= 5.0.14",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14",
+      "WitcherApp.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5780,7 +5796,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {
+              "projectPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

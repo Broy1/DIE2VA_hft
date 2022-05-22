@@ -21,5 +21,12 @@ namespace WitcherApp.Model
         public virtual ICollection<Witcher> HuntedBy { get; set; }
 
         public virtual ICollection<Human> KilledHumans { get; set; }
+
+        public Monster(string datastring)
+        {
+            string[] raw = datastring.Split('-');
+            MonsterId = int.Parse(raw[0]);
+            Name = raw[1];
+        }
     }
 }

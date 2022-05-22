@@ -29,5 +29,15 @@ namespace WitcherApp.Model
         public virtual ICollection<Human> Friends { get; set; }
 
         public virtual School School { get; set; }
+
+        public Witcher(string datastring)
+        {
+            string[] raw = datastring.Split('-');
+            WitcherId = int.Parse(raw[0]);
+            Name = raw[1];
+            Wage = int.Parse(raw[2]);
+            SchoolId = int.Parse(raw[3]);
+            Age = int.Parse(raw[4]);
+        }
     }
 }
