@@ -5755,11 +5755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
       "projectName": "WitcherApp.Repository",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
+      "projectPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FhyF20dWTGGz7D09/N8mQnLwxNxDWWtWUE5bTJ4jw9J+bgD3ZU/Sb/usggr+FxJr4S4qv2/XbyPZPcT4vOxkiQ==",
+  "dgSpecHash": "71lel8+SLBXGKHuU2bJ897zoSIAIDkzIjIBp5EO948ep3bmPo1Ck4s9//tgq737DXLDz7f8KfCDCh9DA3Lerfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Roy\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
