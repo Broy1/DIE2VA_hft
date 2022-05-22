@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7lOj8qQerEKS2y/DjspsNxRKEK1sE8FxB4ju5yZkgfFE8PgXJPFIj9Aq43WBfoCwyV+jmjBdupVoByeRNIM7Zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roy\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
