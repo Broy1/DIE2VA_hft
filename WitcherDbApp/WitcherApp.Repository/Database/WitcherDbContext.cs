@@ -89,25 +89,25 @@ namespace WitcherApp.Repository.Database
 
             modelBuilder.Entity<Monster>().HasData(new Monster[]
             {
-                // id-name
-                new Monster("1-Leshen"),
-                new Monster("2-Mountain Troll"),
-                new Monster("3-Nekker"),
-                new Monster("4-Drowner"),
-                new Monster("5-Wraith"),
-                new Monster("6-Wyvern"),
-                new Monster("7-Giant"),
-                new Monster("8-Hymn"),
-                new Monster("9-Vampire"),
-                new Monster("10-Ghoul"),
-                new Monster("11-Striga"),
-                new Monster("12-NightWraith"),
-                new Monster("13-Golem"),
-                new Monster("14-Doppler"),
-                new Monster("15-Werewolf"),
-                new Monster("16-Djinn"),
-                new Monster("17-Fiend"),
-                new Monster("18-Gargoyle"),
+                // id-name-bounty
+                new Monster("1-Leshen-1000"),
+                new Monster("2-Mountain Troll-200"),
+                new Monster("3-Nekker-50"),
+                new Monster("4-Drowner-150"),
+                new Monster("5-Wraith-300"),
+                new Monster("6-Wyvern-1500"),
+                new Monster("7-Giant-1200"),
+                new Monster("8-Hymn-1000"),
+                new Monster("9-Vampire-2500"),
+                new Monster("10-Ghoul-250"),
+                new Monster("11-Striga-400"),
+                new Monster("12-NightWraith-200"),
+                new Monster("13-Golem-500"),
+                new Monster("14-Doppler-700"),
+                new Monster("15-Werewolf-800"),
+                new Monster("16-Djinn-700"),
+                new Monster("17-Fiend-1000"),
+                new Monster("18-Gargoyle-500"),
             });
 
             modelBuilder.Entity<Human>().HasData(new Human[]

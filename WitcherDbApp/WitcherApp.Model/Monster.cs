@@ -18,6 +18,8 @@ namespace WitcherApp.Model
         [StringLength(240)]
         public string Name { get; set; }
 
+        public int Bounty { get; set; }
+
         public virtual ICollection<Witcher> HuntedBy { get; set; }
 
         public virtual ICollection<Human> KilledHumans { get; set; }
@@ -27,6 +29,7 @@ namespace WitcherApp.Model
             string[] raw = datastring.Split('-');
             MonsterId = int.Parse(raw[0]);
             Name = raw[1];
+            Bounty = int.Parse(raw[2]);
         }
     }
 }
