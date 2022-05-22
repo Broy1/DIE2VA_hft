@@ -15,12 +15,12 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.ColumnSpan="2" Margin="200,159,200,-3">
+        <StackPanel Grid.ColumnSpan="2" Margin="200,159,200,-4">
             <Label Content="Monster Name:" Background="Beige" Padding="10" Width="399"/>
             <TextBox Text="{Binding SelectedMonster.Name}" Padding="10" Margin="0,0,0,30" />
-            <Button Content="Create Monster" Command="{Binding CreateMonsterCommand}" Margin="10" Padding="10" />
-            <Button Content="Delete Monster" Command="{Binding DeleteMonsterCommand}" Margin="10" Padding="10" />
-            <Button Content="Update Monster" Command="{Binding UpdateMonsterCommand}" Margin="10" Padding="10" />
+            <Button Content="Create Monster" Command="{Binding CreateMonsterCommand}" Margin="5" Padding="5" />
+            <Button Content="Delete Monster" Command="{Binding DeleteMonsterCommand}" Margin="5" Padding="5" />
+            <Button Content="Update Monster" Command="{Binding UpdateMonsterCommand}" Margin="5" Padding="5" />
             <Label Content="{Binding ErrorMessage}" FontSize="18" Foreground="Red" HorizontalContentAlignment="Center" />
         </StackPanel>
         <ListBox Background="LightCoral" ItemsSource="{Binding Monsters}" SelectedItem="{Binding SelectedMonster}" Margin="0,10,0,275" Grid.ColumnSpan="2">
