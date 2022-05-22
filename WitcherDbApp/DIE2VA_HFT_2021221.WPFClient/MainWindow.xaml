@@ -15,7 +15,7 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.ColumnSpan="2" Margin="200,164,200,-8">
+        <StackPanel Grid.ColumnSpan="2" Margin="200,159,200,-3">
             <Label Content="Monster Name:" Background="Beige" Padding="10" Width="399"/>
             <TextBox Text="{Binding SelectedMonster.Name}" Padding="10" Margin="0,0,0,30" />
             <Button Content="Create Monster" Command="{Binding CreateMonsterCommand}" Margin="10" Padding="10" />
