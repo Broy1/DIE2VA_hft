@@ -62,18 +62,18 @@ namespace WitcherApp.Repository.Database
 
             modelBuilder.Entity<Witcher>().HasData(new Witcher[]
             {
-                // id-name-wage-school-age
-                new Witcher("1-Geralt-3500-School of the Wolf-57"),
-                new Witcher("2-Vesemir-4000-School of the Wolf-42"),
-                new Witcher("3-Gweld-2200-School of the Wolf-51"),
-                new Witcher("4-Raven-2105-School of the Griffin-35"),
-                new Witcher("5-Kristov-3025-School of the Griffin-47"),
-                new Witcher("6-Coen-1300-School of the Cat-40"),
-                new Witcher("7-Aiden-1450-School of the Cat-34"),
-                new Witcher("8-Guxart-1760-School of the Cat-44"),
-                new Witcher("9-Auckes-2100-School of the Viper-63"),
-                new Witcher("10-Gerd-1890-School of the Bear-34"),
-                new Witcher("11-Ivo-1550-School of the Bear-37"),
+                // id-name-wage-schoolid-age
+                new Witcher("1-Geralt-3500-1-57"),
+                new Witcher("2-Vesemir-4000-1-42"),
+                new Witcher("3-Gweld-2200-1-51"),
+                new Witcher("4-Raven-2105-2-35"),
+                new Witcher("5-Kristov-3025-2-47"),
+                new Witcher("6-Coen-1300-3-40"),
+                new Witcher("7-Aiden-1450-3-34"),
+                new Witcher("8-Guxart-1760-3-44"),
+                new Witcher("9-Auckes-2100-4-63"),
+                new Witcher("10-Gerd-1890-5-34"),
+                new Witcher("11-Ivo-1550-5-37"),
                 
             });
 
@@ -122,7 +122,7 @@ namespace WitcherApp.Repository.Database
                 new Human("7-4-12-Leopold"),
                 new Human("8-9-10-Severin"),
                 new Human("9-2-5-Alba"),
-                new Human("10-1- -Yennefer")
+                new Human("10-1-1-Yennefer")
             });
         }
 
