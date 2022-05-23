@@ -10,12 +10,21 @@ table {
     border-collapse: collapse;
 }
 
+
+
 th, td {
     padding: 5px;
 }
 
 th {
     background-color: lightblue;
+}
+
+body{
+    background-image: url('https://browsecat.net/sites/default/files/netflix-the-witcher-2019-wallpapers-86284-498495-8934476.png');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #formdiv {
@@ -37,9 +46,4 @@ table button {
     padding: 2px;
 }
 
-body{
-    background-image: url('https://browsecat.net/sites/default/files/netflix-the-witcher-2019-wallpapers-86284-498495-8934476.png');
-    opacity: 0.8;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
