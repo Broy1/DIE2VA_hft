@@ -56,28 +56,28 @@ namespace WitcherApp.Client
         {
             rest = new RestService("http://localhost:53900/", "witcher");
 
-            var actorSubMenu = new ConsoleMenu(args, level: 1)
-                .Add("List", () => List("Actor"))
+            var monsterSubMenu = new ConsoleMenu(args, level: 1)
+                .Add("List", () => List("Monster"))
                 .Add("Create", () => Create("Monster"))
                 .Add("Delete", () => Delete("Monster"))
                 .Add("Update", () => Update("Monster"))
                 .Add("Exit", ConsoleMenu.Close);
 
-            var roleSubMenu = new ConsoleMenu(args, level: 1)
+            var humanSubMenu = new ConsoleMenu(args, level: 1)
                 .Add("List", () => List("Human"))
                 .Add("Create", () => Create("Human"))
                 .Add("Delete", () => Delete("Human"))
                 .Add("Update", () => Update("Human"))
                 .Add("Exit", ConsoleMenu.Close);
 
-            var directorSubMenu = new ConsoleMenu(args, level: 1)
+            var schoolSubMenu = new ConsoleMenu(args, level: 1)
                 .Add("List", () => List("School"))
                 .Add("Create", () => Create("School"))
                 .Add("Delete", () => Delete("School"))
                 .Add("Update", () => Update("School"))
                 .Add("Exit", ConsoleMenu.Close);
 
-            var movieSubMenu = new ConsoleMenu(args, level: 1)
+            var witcherSubMenu = new ConsoleMenu(args, level: 1)
                 .Add("List", () => List("Witcher"))
                 .Add("Create", () => Create("Witcher"))
                 .Add("Delete", () => Delete("Witcher"))
@@ -86,10 +86,10 @@ namespace WitcherApp.Client
 
 
             var menu = new ConsoleMenu(args, level: 0)
-                .Add("Witchers", () => movieSubMenu.Show())
-                .Add("Monsters", () => actorSubMenu.Show())
-                .Add("Humans", () => roleSubMenu.Show())
-                .Add("Schools", () => directorSubMenu.Show())
+                .Add("Witchers", () => witcherSubMenu.Show())
+                .Add("Monsters", () => monsterSubMenu.Show())
+                .Add("Humans", () => humanSubMenu.Show())
+                .Add("Schools", () => schoolSubMenu.Show())
                 .Add("Exit", ConsoleMenu.Close);
 
             menu.Show();
