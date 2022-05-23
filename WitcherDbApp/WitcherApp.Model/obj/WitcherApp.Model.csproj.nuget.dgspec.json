@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {}
+    "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {
+    "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj",
         "projectName": "WitcherApp.Model",
-        "projectPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj",
+        "projectPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj",
         "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Model\\obj\\",
+        "outputPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

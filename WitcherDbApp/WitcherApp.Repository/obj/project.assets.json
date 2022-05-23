@@ -330,6 +330,15 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1610,6 +1619,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "WitcherApp.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WitcherApp.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WitcherApp.Model.dll": {}
+        }
       }
     }
   },
@@ -2114,6 +2133,33 @@
         "dotnet_library_license.txt",
         "netstandard.library.1.6.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -5737,6 +5783,11 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "WitcherApp.Model/1.0.0": {
+      "type": "project",
+      "path": "../WitcherApp.Model/WitcherApp.Model.csproj",
+      "msbuildProject": "../WitcherApp.Model/WitcherApp.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5744,7 +5795,9 @@
       "Microsoft.EntityFrameworkCore >= 5.0.14",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.14",
       "Microsoft.EntityFrameworkCore.Proxies >= 5.0.14",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14",
+      "Newtonsoft.Json >= 13.0.1",
+      "WitcherApp.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5755,11 +5808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
       "projectName": "WitcherApp.Repository",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
+      "projectPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\WitcherApp.Repository.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\WitcherDbApp\\WitcherApp.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5780,7 +5833,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj": {
+              "projectPath": "C:\\Users\\Roy\\Fork\\DIE2VA_hft\\WitcherDbApp\\WitcherApp.Model\\WitcherApp.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5810,6 +5867,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.14, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           }
         },
         "imports": [
