@@ -66,7 +66,7 @@ namespace DIE2VA_HFT_2021221.WPFClient
         {
             if (!IsInDesignMode)
             {
-                Monsters = new RestCollection<Monster>("http://localhost:53910/", "monster", "hub");
+                Monsters = new RestCollection<Monster>("http://localhost:53500/", "monster", "hub");
                 CreateMonsterCommand = new RelayCommand(() =>
                 {
                     Monsters.Add(new Monster()
