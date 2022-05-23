@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitcherApp.Repository", "Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitcherApp.Model", "WitcherApp.Model\WitcherApp.Model.csproj", "{D07FABC6-2E58-41B1-ABB5-06974B7800C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitcherApp.Logic", "WitcherApp.Logic\WitcherApp.Logic.csproj", "{DD0C77AC-E466-482F-850F-B9C1D1556E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitcherApp.Logic", "WitcherApp.Logic\WitcherApp.Logic.csproj", "{DD0C77AC-E466-482F-850F-B9C1D1556E51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIE2VA_HFT_2021221.WPFClient", "DIE2VA_HFT_2021221.WPFClient\DIE2VA_HFT_2021221.WPFClient.csproj", "{7149A049-F1D3-4D7F-911C-42E2E02D0570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIE2VA_HFT_2021221.WPFClient", "DIE2VA_HFT_2021221.WPFClient\DIE2VA_HFT_2021221.WPFClient.csproj", "{7149A049-F1D3-4D7F-911C-42E2E02D0570}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitcherApp.Endpoint", "WitcherApp.Endpoint\WitcherApp.Endpoint.csproj", "{1B0D4F8C-7777-4803-B32E-FF3276D0D6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIE2VA_HFT_2021221.JSClient", "DIE2VA_HFT_2021221.JSClient\DIE2VA_HFT_2021221.JSClient.csproj", "{A2E60386-3F30-4A5A-B391-3B7E7790A79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitcherApp.Client", "WitcherApp.Client\WitcherApp.Client.csproj", "{E7529376-DAA7-4C8C-B6BC-685552B3E567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7149A049-F1D3-4D7F-911C-42E2E02D0570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0D4F8C-7777-4803-B32E-FF3276D0D6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0D4F8C-7777-4803-B32E-FF3276D0D6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0D4F8C-7777-4803-B32E-FF3276D0D6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0D4F8C-7777-4803-B32E-FF3276D0D6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E60386-3F30-4A5A-B391-3B7E7790A79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E60386-3F30-4A5A-B391-3B7E7790A79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E60386-3F30-4A5A-B391-3B7E7790A79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E60386-3F30-4A5A-B391-3B7E7790A79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7529376-DAA7-4C8C-B6BC-685552B3E567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7529376-DAA7-4C8C-B6BC-685552B3E567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7529376-DAA7-4C8C-B6BC-685552B3E567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7529376-DAA7-4C8C-B6BC-685552B3E567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
