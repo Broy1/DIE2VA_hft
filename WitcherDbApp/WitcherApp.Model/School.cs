@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace WitcherApp.Model
@@ -18,6 +19,7 @@ namespace WitcherApp.Model
         [StringLength(100)]
         public string Name { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Witcher> Witchers { get; set; }
 
         public School()

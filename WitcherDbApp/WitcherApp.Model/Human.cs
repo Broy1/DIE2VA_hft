@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace WitcherApp.Model
@@ -20,8 +21,10 @@ namespace WitcherApp.Model
 
         public int? MonsterId { get; set; }
 
+        [JsonIgnore]
         public virtual Witcher WitcherFriend { get; set; }
 
+        [JsonIgnore]
         public virtual Monster KilledBy { get; set; }
 
 

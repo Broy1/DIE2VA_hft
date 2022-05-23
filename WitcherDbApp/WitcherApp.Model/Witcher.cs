@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace WitcherApp.Model
@@ -24,10 +25,13 @@ namespace WitcherApp.Model
 
         public int SchoolId { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Monster> HuntedMonsters { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Human> Friends { get; set; }
 
+        [JsonIgnore]
         public virtual School School { get; set; }
 
 

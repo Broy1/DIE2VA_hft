@@ -9,11 +9,11 @@ using WitcherApp.Repository.Interfaces;
 
 namespace WitcherApp.Logic.Classes
 {
-    public class MovieLogic : IWitcherLogic
+    public class WitcherLogic : IWitcherLogic
     {
         IRepository<Witcher> repo;
 
-        public MovieLogic(IRepository<Witcher> repo)
+        public WitcherLogic(IRepository<Witcher> repo)
         {
             this.repo = repo;
         }

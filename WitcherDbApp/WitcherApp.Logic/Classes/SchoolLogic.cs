@@ -9,11 +9,11 @@ using WitcherApp.Repository.Interfaces;
 
 namespace WitcherApp.Logic.Classes
 {
-    public class DirectorLogic : ISchoolLogic
+    public class SchoolLogic : ISchoolLogic
     {
         IRepository<School> repo;
 
-        public DirectorLogic(IRepository<School> repo)
+        public SchoolLogic(IRepository<School> repo)
         {
             this.repo = repo;
         }
